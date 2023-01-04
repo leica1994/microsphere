@@ -115,8 +115,7 @@ public class ArtifactCollisionResourceDetector {
         if (index == -1) {
             return null;
         }
-        String extension = artifactResourcePath.substring(index + 1);
-        return extension;
+        return artifactResourcePath.substring(index + 1);
     }
 
     private String buildMavenGAV(Properties properties, String extension) {

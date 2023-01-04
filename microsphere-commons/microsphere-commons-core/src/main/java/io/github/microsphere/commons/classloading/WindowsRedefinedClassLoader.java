@@ -13,6 +13,7 @@ import java.io.InputStream;
 import java.net.URL;
 import java.net.URLClassLoader;
 import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 import java.util.*;
 
 /**
@@ -28,7 +29,7 @@ class WindowsRedefinedClassLoader extends URLClassLoader {
 
     private static final Logger logger = LoggerFactory.getLogger(WindowsRedefinedClassLoader.class);
 
-    private static final Charset charset = Charset.forName("UTF-8");
+    private static final Charset charset = StandardCharsets.UTF_8;
 
     /**
      * Class name as key and class resource directory URL as value

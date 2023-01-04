@@ -10,7 +10,6 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.microsphere-projects</groupId>
     <artifactId>microsphere-spring-redis-replicator</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
