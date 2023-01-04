@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>io.github.microsphere-projects</groupId>
+        <artifactId>microsphere</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>microsphere-spring-projects</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>Microsphere Spring Projects</name>
+    <description>Microsphere Spring Projects</description>
+
+    <scm>
+        <url>https://github.com/microsphere-projects/microsphere-spring</url>
+        <connection>scm:git:git://github.com/microsphere-projects/microsphere-spring.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/microsphere-projects/microsphere-spring.git
+        </developerConnection>
+    </scm>
+
+    <developers>
+        <developer>
+            <id>mercyblitz</id>
+            <name>Mercy Ma</name>
+            <email>mercyblitz@gmail.com</email>
+            <organization>Microsphere</organization>
+            <roles>
+                <role>lead</role>
+                <role>architect</role>
+                <role>developer</role>
+            </roles>
+        </developer>
+    </developers>
+
+
+    <modules>
+        <module>microsphere-spring</module>
+        <module>microsphere-spring-boot</module>
+        <module>microsphere-spring-cloud</module>
+    </modules>
+
+    <properties>
+        <spring-boot.version>2.6.11</spring-boot.version>
+    </properties>
+
+</project>
